@@ -49,12 +49,19 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
+        $messages = [
+            'required' => '需要輸入',
+            'confirmed' =>'密碼錯誤',
+            'min' =>'最短要8個字母',
+            'unique' =>'帳號已被使用',
+            'max' => '最長為255字'
+        ];
         return Validator::make($data, [
             'user_name' => ['required', 'string', 'max:255', 'unique:users'],
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-        ]);
+        ],$messages);
     }
 
     /**
@@ -70,6 +77,7 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'avatar' => "http://localhost/Tweety/public/storage/avatars/default.jpg"
         ]);
     }
 }

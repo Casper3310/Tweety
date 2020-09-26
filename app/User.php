@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Facades\Auth;
 
 class User extends Authenticatable
 {
@@ -55,7 +56,7 @@ class User extends Authenticatable
 
     public function likes()
     {
-        return $this->hasMany(like::class);
+        return $this->hasMany(Like::class);
     }
     
     //Laravel 7以下使用 Auth()方法默認搜尋id更改為搜尋SELECT''資料表欄位
@@ -69,5 +70,4 @@ class User extends Authenticatable
         $path = route('profile',$this->user_name);
         return $append ? "{$path}/{$append}" : $path;
     }
-
 }

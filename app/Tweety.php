@@ -14,5 +14,5 @@ class Tweety extends Model
         return $this->belongsTo(User::class);
     }
 
-
+    
 }

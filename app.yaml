@@ -1,0 +1,29 @@
+runtime: php72
+env: flex
+
+runtime_config:
+  document_root: public
+
+env_variables:
+  ## Put production environment variables here.
+  APP_KEY: base64:ad8vNhqNTimyzl9dmFv0kxnAAJzurwgSs4zmmp43GUA=
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  SESSION_DRIVER: cookie
+  APP_SERVICES_CACHE: /tmp/services.php
+  APP_PACKAGES_CACHE: /tmp/packages.php
+  APP_CONFIG_CACHE: /tmp/config.php
+  APP_ROUTES_CACHE: /tmp/routes.php
+  ## Put production environment variables here.
+  CACHE_DRIVER: database
+  ## Set these environment variables according to your CloudSQL configuration.
+  DB_DATABASE: laravel
+  DB_USERNAME: ii60425332ii20
+  DB_PASSWORD: 
+  
+  DB_CONNECTION=mysql
+  ## for MYSQL, use DB_SOCKET:
+  DB_SOCKET: "/cloudsql/34.80.216.15"
+  DB_PORT=3306
+  ## for PostgreSQL, use DB_HOST:
+  # DB_HOST: "/cloudsql/casper3310:asia-east1:laravel"   base64:NlOPjRX/RQzmXcbTaCdi459DXHs/Vhc0KRphv0ZzAxk=

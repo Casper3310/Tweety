@@ -16,7 +16,6 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
     <!-- Styles -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 </head>
@@ -26,10 +25,11 @@
         <section class="px-8 py-4 mb-6">
             <header class="container mx-auto">
                 <h1>
+                    <a href="{{ route('home') }}">
                     <image
                     src="http://localhost/Tweety/public/images/logo.svg"
-                    alt="Tweety">
-
+                    alt="Tweety" >
+                    </a>
                 </h1>
             </header>
         </section>
