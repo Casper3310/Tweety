@@ -21,6 +21,13 @@ Route::get('/', function () {
 });
 
 Route::get('line','TweetyController@test')->name('line_Notify');
+
+Route::get('email','EmailController@show')->name('email');
+Route::post('email/raw','EmailController@email_raw')->name('email_send_raw');
+Route::post('email/html','EmailController@email_VerifyMail')->name('email_send_VerifyMail');
+Route::post('email/markdown','EmailController@email_markdown')->name('email_send_markdown');
+
+
 Auth::routes();
 Route::middleware('auth')->group(function () {
     Route::get('tweety', 'TweetyController@index')->name('home');
