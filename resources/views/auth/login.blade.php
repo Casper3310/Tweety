@@ -75,9 +75,9 @@
                                     Login 登入
                                 </button>
 
-                                <a href="{{ route('password.request') }}"
-                                    class="text-xs text-gray-700">
-                                    Forgot you password忘記密碼
+                                <a href="{{ route('register') }}"
+                                class="px-4 py-2 rounded text-sm bg-blue-600 text-white hover:bg-blue-500 mr-2">
+                                    申請
                                 </a>
                             </div>                        
                     </form>

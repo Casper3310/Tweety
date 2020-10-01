@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    Auth::loginUsingId(2);
+    
     return view('index');
 });
 
@@ -27,7 +27,13 @@ Route::post('email/raw','EmailController@email_raw')->name('email_send_raw');
 Route::post('email/html','EmailController@email_VerifyMail')->name('email_send_VerifyMail');
 Route::post('email/markdown','EmailController@email_markdown')->name('email_send_markdown');
 
+Route::get('messagebord/show','Message_bordController@show')->name('messagebord');
+Route::post('messagebord/store','Message_bordController@store')->name('store_messagebord');
+Route::get('messagebord/{id}/edit','Message_bordController@edit')->name('edit_messagebord');
+Route::put('messagebord/update','Message_bordController@update')->name('update_messagebord');
+Route::delete('messagebord/delete','Message_bordController@delete')->name('delete_messagebord');
 
+Route::get('register', function(){return view('auth.register');})->name('register');
 Auth::routes();
 Route::middleware('auth')->group(function () {
     Route::get('tweety', 'TweetyController@index')->name('home');
@@ -46,3 +52,28 @@ Route::middleware('auth')->group(function () {
 Route::get('porfiles/{user:user_name}', 'ProfilesController@show')->name('profile');
 
 
+/*GET – 取得資源
+POST – 新增一筆資源
+PUT – 更新一筆資源
+Patch – 更新一筆資源的部分內容
+Delete – 刪除一筆資源
+Options – 取得Server支援的Request Types有哪些*/
+
+/*
+//連線資料庫
+function link_db($host,$dbuser,$dbpw,$db_name)
+{
+    //建立連線
+    $link = mysqli_connect($host,$dbuser,$dbpw,$db_name);
+    //檢查連線
+    if ($link) 
+    {
+        mysqli_set_charset($link,"SET NAME UTF-8");
+        echo "資料庫連線成功";
+    }
+    else
+    {
+        echo "資料庫連線失敗" . mysqli_connect_errno();
+    }
+    return $link;
+}*/
