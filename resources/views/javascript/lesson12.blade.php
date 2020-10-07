@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/lesson12.css')}}">
     <title>作品首頁</title>
 </head>
@@ -220,29 +219,25 @@
     let tab2 = document.getElementById('table2');
     let td2 = tab2.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
     for (let i = 0; i < td2.length; i++) {
-        if (i % 2) 
-        {
+        if (i % 2) {
             td2[i].style.backgroundColor = "yellow";
-        }        
+        }
     }
 
     let tab3 = document.getElementById('table3');
     let td3 = tab3.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
     let old_color = "";
     for (let i = 0; i < td3.length; i++) {
-        td3[i].onmouseover = function()
-        {
+        td3[i].onmouseover = function() {
             old_color = this.style.backgroundColor;
             this.style.backgroundColor = "grey";
         };
-        td3[i].onmouseout = function()
-        {
+        td3[i].onmouseout = function() {
             this.style.backgroundColor = old_color;
         };
-        if (i % 2) 
-        {
+        if (i % 2) {
             td3[i].style.backgroundColor = "yellow";
-        }        
+        }
     }
 
     let tab4 = document.getElementById('table4');
@@ -251,14 +246,13 @@
     let name = document.getElementById('name');
     let age = document.getElementById('age');
     let rows_num = tb4[0].getElementsByTagName('tr').length
-    btn1.onclick = function()
-    {
-        
+    btn1.onclick = function() {
+
         let new_tr = document.createElement('tr');
 
         let new_td = document.createElement('td');
-        new_td.innerHTML = rows_num+1;
-        rows_num+=1;
+        new_td.innerHTML = rows_num + 1;
+        rows_num += 1;
         new_tr.appendChild(new_td);
 
         new_td = document.createElement('td');
@@ -272,8 +266,7 @@
         new_td = document.createElement('td');
         new_td.innerHTML = "<button>刪除</button>";
         new_tr.appendChild(new_td);
-        new_td.getElementsByTagName('button')[0].onclick = function()
-        {
+        new_td.getElementsByTagName('button')[0].onclick = function() {
             tb4[0].removeChild(this.parentNode.parentNode);
             //console.log(this.parentNode.parentNode.parentNode);
         };
@@ -283,35 +276,29 @@
 
     let btn2 = document.getElementById('btn2');
     let tab6 = document.getElementById('table6');
-    
-    btn2.onclick = function()
-    {
+
+    btn2.onclick = function() {
         let name2 = document.getElementById('name2');
         let tb6 = tab6.getElementsByTagName('tbody')
         let rows = tb6[0].getElementsByTagName('tr');
-        for(let i=0; i<rows.length;i++)
-        {
-            let tab_text = rows[i].getElementsByTagName('td')[1].innerHTML;    
+        for (let i = 0; i < rows.length; i++) {
+            let tab_text = rows[i].getElementsByTagName('td')[1].innerHTML;
             let name_value = name2.value.toLowerCase();
+            let arr = name_value.split(' ');
             tab_text = tab_text.toLowerCase();
-            
-            if( tab_text.search(name_value)!=-1)
-            {                
-                rows[i].style.backgroundColor = "yellow"; 
+
+            rows[i].style.backgroundColor = "";
+            for (let j = 0; j < arr.length; j++) {
+                if (tab_text.search(arr[j]) != -1) {
+                    rows[i].style.backgroundColor = "yellow";
+                }
             }
-            else
-            {
-                rows[i].style.backgroundColor = ""; 
-            }
-            console.log(tab_text.search(name_value));
-            
+
+            console.log(arr.length);
+
         }
-        
+
     };
-
-
-    
-
 </script>
 
 </html>
