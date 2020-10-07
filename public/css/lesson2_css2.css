@@ -1,0 +1,22 @@
+#div1 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border: 1px solid;
+    display: none;
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid;
+}
+body {
+   background-color: red;
+}
+input {
+   height: 100;
+   width: 100;
+   background-color: rgb(135, 31, 156);
+}

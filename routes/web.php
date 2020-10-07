@@ -51,6 +51,18 @@ Route::middleware('auth')->group(function () {
 
 Route::get('porfiles/{user:user_name}', 'ProfilesController@show')->name('profile');
 
+Route::get('javascript/show','javascriptController@lesson1')->name('lesson1');
+Route::get('javascript/lesson2','javascriptController@lesson2')->name('lesson2');
+Route::get('javascript/lesson3','javascriptController@lesson3')->name('lesson3');
+Route::get('javascript/lesson4','javascriptController@lesson4')->name('lesson4');
+Route::get('javascript/lesson5','javascriptController@lesson5')->name('lesson5');
+Route::get('javascript/lesson6','javascriptController@lesson6')->name('lesson6');
+Route::get('javascript/lesson7','javascriptController@lesson7')->name('lesson7');
+Route::get('javascript/lesson8','javascriptController@lesson8')->name('lesson8');
+Route::get('javascript/lesson9','javascriptController@lesson9')->name('lesson9');
+Route::get('javascript/lesson10','javascriptController@lesson10')->name('lesson10');
+Route::get('javascript/lesson11','javascriptController@lesson11')->name('lesson11');
+Route::get('javascript/lesson12','javascriptController@lesson12')->name('lesson12');
 
 /*GET – 取得資源
 POST – 新增一筆資源
