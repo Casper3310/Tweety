@@ -1,0 +1,14 @@
+table,td{
+    border: 1px solid black;
+    width: 1000px;
+    
+}
+#ul1{
+    background-color: cornflowerblue;
+}
+#ul2{
+    background-color: darkgoldenrod;
+}
+#ul3{
+    background-color: rgb(51, 173, 92);
+}

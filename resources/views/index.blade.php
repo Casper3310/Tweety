@@ -27,7 +27,8 @@
                     <li class="list-group-item"><a href="{{ route('lesson10') }}">lesson10 子父元素使用，第三種DOM操作方法</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson11') }}">lesson11 建立、插入、刪除元素</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson12') }}">lesson12 元素應用、搜尋概念及方法</a></li>
-                    <li class="list-group-item"><a href="{{ route('lesson13') }}">lesson13 </a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson13') }}">lesson13 元素集合及排序</a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson14') }}">lesson14 </a></li>
                     <li class="list-group-item"></li>
                     <li class="list-group-item"></li>
                 </ul>
