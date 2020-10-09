@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ asset('css/index.css')}}">
     <title>作品首頁</title>
 </head>
 
@@ -14,7 +15,7 @@
         <div class="row">
             <div class="col-sm">
                 <h1>Javascript</h1>
-                <ul class="list-group">
+                <ul class="list-group" id="learn_list">javascript學習
                     <li class="list-group-item"><a href="{{ route('lesson1') }}">第一個JAVASCRIPT</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson2') }}">lesson2改變標籤屬性</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson3') }}">lesson3第二種改變屬性方法</a></li>
@@ -28,9 +29,10 @@
                     <li class="list-group-item"><a href="{{ route('lesson11') }}">lesson11 建立、插入、刪除元素</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson12') }}">lesson12 元素應用、搜尋概念及方法</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson13') }}">lesson13 元素集合及排序</a></li>
-                    <li class="list-group-item"><a href="{{ route('lesson14') }}">lesson14 </a></li>
-                    <li class="list-group-item"></li>
-                    <li class="list-group-item"></li>
+                    <li class="list-group-item"><a href="{{ route('lesson14') }}">lesson14 方法合併</a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson15') }}">lesson15 均速移動</a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson16') }}">lesson16 </a></li>
+
                 </ul>
             </div>
             <div class="col-sm">
@@ -75,4 +77,5 @@
         </li>
     </ul>
 </footer>
+<script type="text/javascript" src="{{ asset('js/index.js') }}"></script>
 </html>

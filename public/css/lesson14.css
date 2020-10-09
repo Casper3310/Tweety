@@ -4,3 +4,26 @@
     background-color: darkgray;
     position: absolute;
 }
+#div2{
+    width: 150px;
+    left: -150px;
+    height: 200px;
+    background-color: rgb(196, 206, 57);
+    position: absolute;
+    margin-top: 200px;
+}
+#div2 p{
+    width: 20px;
+    height: 60px;
+    line-height: 20px;
+    position: absolute;
+    background-color: rgb(50, 109, 163);
+    right: -20px;
+    top: 70px;
+}
+#contant{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    background-color: rgb(52, 92, 12);
+}

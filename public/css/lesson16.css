@@ -1,0 +1,22 @@
+#div1{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(109, 25, 102);
+}
+#div1 div{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: cadetblue;
+}
+#div2{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(109, 25, 102);
+}
+#div2 div{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: cadetblue;
+}
