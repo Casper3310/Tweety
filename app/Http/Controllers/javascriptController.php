@@ -85,5 +85,10 @@ class javascriptController extends Controller
     {
         return view('javascript.lesson16');
     }
+
+    public function lesson17()
+    {
+        return view('javascript.lesson17');
+    }
 }
 

@@ -20,3 +20,30 @@
     margin: 10px;
     background-color: cadetblue;
 }
+#div3{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(109, 25, 102);
+}
+#div3 div{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+    background-color: rgb(36, 157, 226);
+    opacity: 0.2;
+}
+#div4{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(95, 101, 128);
+    margin-top: 20px;
+}
+#div4 div{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+    background-color: rgb(36, 157, 226);
+    
+}

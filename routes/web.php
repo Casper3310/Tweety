@@ -67,6 +67,7 @@ Route::get('javascript/lesson13','javascriptController@lesson13')->name('lesson1
 Route::get('javascript/lesson14','javascriptController@lesson14')->name('lesson14');
 Route::get('javascript/lesson15','javascriptController@lesson15')->name('lesson15');
 Route::get('javascript/lesson16','javascriptController@lesson16')->name('lesson16');
+Route::get('javascript/lesson17','javascriptController@lesson17')->name('lesson17');
 
 /*GET – 取得資源
 POST – 新增一筆資源

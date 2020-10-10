@@ -31,7 +31,8 @@
                     <li class="list-group-item"><a href="{{ route('lesson13') }}">lesson13 元素集合及排序</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson14') }}">lesson14 方法合併</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson15') }}">lesson15 均速移動</a></li>
-                    <li class="list-group-item"><a href="{{ route('lesson16') }}">lesson16 </a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson16') }}">lesson16 多物體運動注意</a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson17') }}">lesson17 仿FLASH運動圖片播放</a></li>
 
                 </ul>
             </div>
