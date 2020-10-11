@@ -33,6 +33,8 @@
                     <li class="list-group-item"><a href="{{ route('lesson15') }}">lesson15 均速移動</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson16') }}">lesson16 多物體運動注意</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson17') }}">lesson17 仿FLASH運動圖片播放</a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson18') }}">lesson18 鏈式運動</a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson19') }}">lesson19 </a></li>
 
                 </ul>
             </div>

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#div1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#div2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+#div3 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+#div4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(78, 9, 9);
+}
+
+#div5 {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+#ul1 {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    margin: 10px auto;
+    overflow: hidden;
+}
+#ul1 li{
+    border-bottom: 1px #999 dashed;
+    list-style: none;
+    padding: 4px;
+    overflow: hidden;
+    opacity: 0;
+}
