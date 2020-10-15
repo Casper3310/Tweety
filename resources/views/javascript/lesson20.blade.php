@@ -25,7 +25,7 @@
     <input type="text" name="" id="text1">
     <p>拖移</p>
     <p>阻止拖出瀏覽器畫面</p>
-    <div class="contact">
+    <div id="contact" class="contact">
         <div id="div2"></div>
     </div>
 </body>

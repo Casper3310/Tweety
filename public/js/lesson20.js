@@ -29,20 +29,22 @@ div2.onmousedown = function (ev) {
 
 
     div2.onmousemove = function (ev) {
+        let contact = document.getElementById('contact');
         let l = ev.clientX - disx;
         let t = ev.clientY - disy;
+        console.log(div2.offsetWidth);
         if (l < 0) {
             l = 0;
         }
-        else if (l > document.documentElement.clientWidth - div2.offsetWidth) {
-            l = document.documentElement.clientWidth - div2.offsetWidth;
+        else if (l > contact.offsetWidth - div2.offsetWidth) {
+            l = contact.offsetWidth - div2.offsetWidth;
         }
 
         if (t < 0) {
             t = 0;
         }
-        else if (t > document.documentElement.clientHeight - div2.offsetHeight) {
-            t = document.documentElement.clientHeight - div2.offsetHeight;
+        else if (t > contact.offsetHeight - div2.offsetHeight) {
+            t = contact.offsetHeight - div2.offsetHeight;
         }
         div2.style.left = l + "px";
         div2.style.top = t + "px";
@@ -51,6 +53,5 @@ div2.onmousedown = function (ev) {
         div2.onmousemove = null;
     }
     return false;
+    
 }
-
-//console.log(ev.clientY)
