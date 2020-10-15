@@ -1,3 +1,33 @@
-div{
-    padding: 100px;
+.event_bubble{
+    padding: 25px;
+}
+#div1{
+    width: 300px;
+    height: 400px;
+    background-color: chartreuse;
+    display: none;
+}
+#div2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(115, 139, 190);
+    position: absolute;
+}
+body{
+    height: 2000px;
+}
+.div3{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(156, 13, 144);
+    position: absolute;
+}
+p{
+    position: relative;
+}
+#div4{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(26, 206, 122);
+    position: absolute;
 }
