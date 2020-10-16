@@ -1,10 +1,60 @@
-#div1{
+#div1 {
     width: 100px;
     height: 100px;
     background-color: red;
-    position:absolute;
-}
-.box{
-    border: 1px dashed black ;
     position: absolute;
+}
+
+.box {
+    border: 1px dashed black;
+    position: absolute;
+}
+
+#div2 {
+    width: 600px;
+    height: 20px;
+    background-color: gray;
+    position: relative;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+
+#div3 {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#div4 {
+    width: 400px;
+    height: 300px;
+    border: 1px black solid;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#div5 {
+    left: 0;
+    top: 0px;
+    position: absolute;
+}
+#div6 {
+    width: 600px;
+    height: 20px;
+    background-color: gray;
+    position: relative;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+
+#div7 {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(184, 17, 175);
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
