@@ -37,6 +37,7 @@
                     <li class="list-group-item"><a href="{{ route('lesson19') }}">lesson19 事件冒泡、滑鼠可視區</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson20') }}">lesson20 取消默認事件、拖曳</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson21') }}">lesson21 事件綁定、拖曳外框、滾動條</a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson22') }}">lesson22 使用Ajax讀取TEXT</a></li>
 
                 </ul>
             </div>
