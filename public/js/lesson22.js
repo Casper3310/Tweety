@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let btn1 = document.getElementById('btn1');
 let div1 = document.getElementById('div1');
 
@@ -31,3 +32,9 @@ btn1.onclick = function(){
     };
     
 }
+=======
+let div1 = document.getElementById('div1');
+let div2 = document.getElementById('div2');
+div1.innerHTML = new Date().getTime();
+div2.innerHTML = new Date();
+>>>>>>> c063185cd1f5a508f09e94f4663d4e04187d5124
