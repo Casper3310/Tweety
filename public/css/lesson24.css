@@ -1,0 +1,28 @@
+#div1 div{
+    width: 200px;
+    height: 200px;
+    display: none;
+    background-color: gray;
+}
+#div1 button{
+    background-color: seagreen;
+}
+
+#div1 button.active{
+    background: rgb(21, 126, 212);
+}
+
+#div2 div{
+    width: 200px;
+    height: 200px;
+    display: none;
+    background-color: rgb(163, 39, 39);
+}
+#div2 button{
+    background-color: rgb(71, 46, 139);
+}
+
+#div2 button.active{
+    background: rgb(171, 209, 34);
+}
+

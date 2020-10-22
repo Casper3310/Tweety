@@ -1,0 +1,12 @@
+#div1{
+    width: 200px;
+    height: 200px;
+    background-color: seagreen;
+    position: absolute;
+}
+#div2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(61, 162, 202);
+    position: absolute;
+}

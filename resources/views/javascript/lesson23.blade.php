@@ -24,8 +24,11 @@
     <p>重複相同的函數在網站物件多時會平白占用大量資源</p>
     <button id="btn3">工廠方式缺點</button>
     <p>當在方法前使用new時瀏覽器會自動聲明一個空的物件this=new object之後又return回去</p>
-    <button id="btn4">改進NEW</button>
+    <button id="btn4">加入NEW</button>
     <p>將原型用到物件導向之中</p>
+    <button id="btn5">在CLASS加入prototype</button>
+    <p>在物件導向中用構造函數加屬性，用原型加方法</p>
+    <p>屬性因為各個物件不同，方法通常相同</p>
 </body>
 
 <script type="text/javascript" src="{{ asset('js/lesson23.js') }}"></script>

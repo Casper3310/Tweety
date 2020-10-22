@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('css/lesson22.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/lesson21.css')}}">
     <title>作品首頁</title>
 </head>
 
@@ -45,6 +45,6 @@
         </div>
 </body>
 
-<script type="text/javascript" src="{{ asset('js/lesson22.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/lesson21.js') }}"></script>
 
 </html>

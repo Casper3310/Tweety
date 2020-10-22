@@ -37,12 +37,10 @@
                     <li class="list-group-item"><a href="{{ route('lesson19') }}">lesson19 事件冒泡、滑鼠可視區</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson20') }}">lesson20 取消默認事件、拖曳</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson21') }}">lesson21 事件綁定、拖曳外框、滾動條</a></li>
-<<<<<<< HEAD
                     <li class="list-group-item"><a href="{{ route('lesson22') }}">lesson22 AJAX應用</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson23') }}">lesson23 物件導向</a></li>
-=======
-                    <li class="list-group-item"><a href="{{ route('lesson22') }}">lesson22 使用Ajax讀取TEXT</a></li>
->>>>>>> c063185cd1f5a508f09e94f4663d4e04187d5124
+                    <li class="list-group-item"><a href="{{ route('lesson24') }}">lesson24 選項卡改寫為物件導向</a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson25') }}">lesson25 </a></li>
 
                 </ul>
             </div>
