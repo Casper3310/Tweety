@@ -1,0 +1,50 @@
+.header {
+    position: relative;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_top_part{
+    display: flex;
+    align-items: center;
+}
+
+.header_top_part ul {
+    list-style: none;
+}
+.topnav_item{
+    display: inline-block;
+}
+.top_link{
+    color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header_logo{
+    width: 100px;
+    height: 48px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../images/ruten/logo.png);
+    background-position: center;
+}
+.header_total_items{
+    display: flex;
+    align-items: center;
+}
+.left_logo{
+    text-align: center;
+}
+.sticky{
+  position: sticky;
+  top: 500px;
+  left: 100px;
+}

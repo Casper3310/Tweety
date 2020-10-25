@@ -77,6 +77,7 @@ Route::get('javascript/lesson23','javascriptController@lesson23')->name('lesson2
 Route::get('javascript/lesson24','javascriptController@lesson24')->name('lesson24');
 Route::get('javascript/lesson25','javascriptController@lesson25')->name('lesson25');
 
+Route::get('ruten/index', 'RutenController@home')->name('RutenHome');
 /*GET – 取得資源
 POST – 新增一筆資源
 PUT – 更新一筆資源

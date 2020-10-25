@@ -40,7 +40,7 @@
                     <li class="list-group-item"><a href="{{ route('lesson22') }}">lesson22 AJAX應用</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson23') }}">lesson23 物件導向</a></li>
                     <li class="list-group-item"><a href="{{ route('lesson24') }}">lesson24 選項卡改寫為物件導向</a></li>
-                    <li class="list-group-item"><a href="{{ route('lesson25') }}">lesson25 </a></li>
+                    <li class="list-group-item"><a href="{{ route('lesson25') }}">lesson25 物件繼承</a></li>
 
                 </ul>
             </div>
@@ -58,7 +58,7 @@
                 <h1>作品</h1>
                 <ul class="list-group">
                     <li class="list-group-item"><a href="{{ route('home') }}">Tweety</a></li>
-                    <li class="list-group-item"></li>
+                    <li class="list-group-item"><a href="{{ route('RutenHome') }}">RutenCopy</a></li>
                     <li class="list-group-item"></li>
                     <li class="list-group-item"></li>
                     <li class="list-group-item"></li>
