@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 
-.header_top_part{
+.header_top_part {
     display: flex;
     align-items: center;
 }
@@ -15,36 +15,72 @@
 .header_top_part ul {
     list-style: none;
 }
-.topnav_item{
+
+.topnav_item {
     display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 20px;
 }
-.top_link{
+
+.top_link {
     color: black;
-    display: flex;
-    align-items: center;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
-.header_logo{
+
+.header_main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(190, 112, 8);
+}
+
+.left_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_logo {
     width: 100px;
     height: 48px;
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
     background-image: url(../../images/ruten/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
     background-position: center;
 }
-.header_total_items{
+
+.header_total_items {
     display: flex;
     align-items: center;
 }
-.left_logo{
-    text-align: center;
+
+.header_search{
+    display: flex;
+    align-items: center;
 }
-.sticky{
-  position: sticky;
-  top: 500px;
-  left: 100px;
+
+.search_form{
+    display: flex;
+    align-items: center;
+}
+
+.search_input{
+    border: none;
+    color: gray;
+}
+
+.search_button{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-image: url(../../images/ruten/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
